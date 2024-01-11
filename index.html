@@ -1,65 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Midterm | Homepage</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/font.css">
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/font.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
     <header>
-        <div class="upperPart">
-            <div class="upperPartContent">
-                <img src="./assets/logo.svg" alt="logo">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="$">HOME</a>
-                        </li>
-                        <li>
-                            <a href="./pages/popular.html">POPULAR</a>
-                        </li>
-                        <li>
-                            <a href="./pages/comer.html">NEW COMER</a>
-                        </li>
-                        <li>
-                            <a href="./pages/about.html">ABOUT</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="buttons">
-                    <button>Sign Up</button>
-                    <button>Login</button>
-                </div>
-            </div>
+      <div class="upperPart">
+        <div class="upperPartContent">
+          <img src="./assets/logo.svg" alt="logo" />
+          <nav>
+            <ul>
+              <li>
+                <a href="$">HOME</a>
+              </li>
+              <li>
+                <a href="./pages/popular.html">POPULAR</a>
+              </li>
+              <li>
+                <a href="./pages/comer.html">NEW COMER</a>
+              </li>
+              <li>
+                <a href="./pages/about.html">ABOUT</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="buttons">
+            <button>Sign Up</button>
+            <button>Login</button>
+          </div>
         </div>
-        <div class="lowerPart">
-            <div class="leftPart">
-                <h2>
-                    Tools for Designer, Developer, and Business Owner
-                </h2>
-                <p class="subtext">
-                    Information about the latest and most popular design and developer tools around the world.
-                </p>
-                <button>Explore Now</button>
-                <span>
-                    <img src="./assets/users2.svg" alt="users">
-                    <p>4,000+</p>
-                    <p>User using the tools</p>
-                </span>
-            </div>
-            <div class="rightPart"></div>
+      </div>
+      <div class="lowerPart">
+        <div class="leftPart">
+          <h2>Tools for Designer, Developer, and Business Owner</h2>
+          <p class="subtext">
+            Information about the latest and most popular design and developer
+            tools around the world.
+          </p>
+          <button>Explore Now</button>
+          <span>
+            <img src="./assets/users2.svg" alt="users" />
+            <p>4,000+</p>
+            <p>User using the tools</p>
+          </span>
         </div>
+        <div class="rightPart">
+          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/in-small.svg" alt="in logo" />
+          <img src="./assets/figma-small.svg" alt="figma logo" />
+          <img src="./assets/github-small.svg" alt="github logo" />
+          <img src="./assets/xd-small.svg" alt="xd logo" />
+          <img src="./assets/vscode-small.svg" alt="vscode logo" />
+        </div>
+      </div>
     </header>
 
     <main>
+      <section class="total-tools">
+        <div class="tool-box">
+          <h5>100+</h5>
+          <h4>Total Tools</h4>
+          <p>Lot of tools that offer free and premium features</p>
+        </div>
+        <div class="tool-box">
+          <h5>50+</h5>
+          <h4>Free Tools</h4>
+          <p>Explore free tools that would help you achieve something</p>
+        </div>
+        <div class="tool-box">
+          <h5>40+</h5>
+          <h4>Premium Tools</h4>
+          <p>Need more feature? lets try the premium tools</p>
+        </div>
+      </section>
 
+      <section class="most-popular-tools">
+        <h3>Most Popular Tools</h3>
+        <p>Most popular tools for designer and developer</p>
+        <div class="popular-container">
+          <div class="popular-card">
+            <div class="image-background">
+              <img src="./assets/figma.svg" alt="figma logo" />
+            </div>
+            <div class="title">
+              <h4>Figma</h4>
+              <span>FREE</span>
+            </div>
+            <p>
+              Figma helps the teams to create, test, and ship better designs
+              from start to finish.
+            </p>
+            <div class="labels">
+              <span>Design</span>
+              <span>Development</span>
+            </div>
+          </div>
+          <div class="popular-card">
+            <div class="image-background">
+              <img src="./assets/xd.svg" alt="xd logo" />
+            </div>
+            <div class="title">
+              <h4>Adobe XD</h4>
+              <span>FREE</span>
+            </div>
+            <p>
+              Adobe XD is your UI/UX design solution platform for website and
+              mobile app creation.
+            </p>
+            <div class="labels">
+              <span>Design</span>
+              <span>Development</span>
+            </div>
+          </div>
+          <div class="popular-card">
+            <div class="image-background">
+              <img src="./assets/in.svg" alt="InVision logo" />
+            </div>
+            <div class="title">
+              <h4>InVision</h4>
+              <span>PREMIUM</span>
+            </div>
+            <p>
+              InVision is the digital product design platform used to make the
+              world's best customer experiences.
+            </p>
+            <div class="labels">
+              <span>Design</span>
+              <span>Development</span>
+            </div>
+          </div>
+        </div>
+        <button>See All</button>
+      </section>
     </main>
 
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
