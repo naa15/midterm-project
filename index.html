@@ -16,7 +16,7 @@
           <nav>
             <ul>
               <li>
-                <a href="$">HOME</a>
+                <a href="#">HOME</a>
               </li>
               <li>
                 <a href="./pages/popular.html">POPULAR</a>
@@ -30,7 +30,7 @@
             </ul>
           </nav>
           <div class="buttons">
-            <button>Sign Up</button>
+            <button id="signupButton">Sign Up</button>
             <button>Login</button>
           </div>
         </div>
@@ -42,7 +42,7 @@
             Information about the latest and most popular design and developer
             tools around the world.
           </p>
-          <button>Explore Now</button>
+          <button id="exploreNowButton">Explore Now</button>
           <span>
             <img src="./assets/users2.svg" alt="users" />
             <p>4,000+</p>
@@ -50,12 +50,8 @@
           </span>
         </div>
         <div class="rightPart">
-          <img src="./assets/logo.svg" alt="logo" />
-          <img src="./assets/in-small.svg" alt="in logo" />
-          <img src="./assets/figma-small.svg" alt="figma logo" />
-          <img src="./assets/github-small.svg" alt="github logo" />
-          <img src="./assets/xd-small.svg" alt="xd logo" />
-          <img src="./assets/vscode-small.svg" alt="vscode logo" />
+          <img src="./assets/logo.svg" alt="logo" class="logo" />
+          <img src="./assets/circle.svg" alt="circle" class="circle" />
         </div>
       </div>
     </header>
@@ -123,7 +119,7 @@
             </div>
             <div class="title">
               <h4>InVision</h4>
-              <span>PREMIUM</span>
+              <span class="premium">PREMIUM</span>
             </div>
             <p>
               InVision is the digital product design platform used to make the
@@ -135,10 +131,297 @@
             </div>
           </div>
         </div>
-        <button>See All</button>
+        <button id="popularSeeAll">See All</button>
+      </section>
+
+      <section class="new-comer-tools">
+        <div class="wrapper">
+          <h3>New Comer Tools</h3>
+          <p>New tools gains popularity</p>
+          <div class="newcomer-container">
+            <div class="newcomer-box">
+              <div class="image-background">
+                <img src="./assets/framer.svg" alt="framer logo" />
+              </div>
+              <div>
+                <div class="title">
+                  <h4>Framer</h4>
+                  <span>FREE</span>
+                </div>
+                <p>
+                  It's prototyping made simple—no code required, browser-based.
+                </p>
+                <div class="labels">
+                  <span>Design</span>
+                  <span>Development</span>
+                </div>
+              </div>
+            </div>
+            <div class="newcomer-box">
+              <div class="image-background">
+                <img src="./assets/whimsical.png" alt="whimsical logo" />
+              </div>
+              <div>
+                <div class="title">
+                  <h4>Whimsical</h4>
+                  <span>FREE</span>
+                </div>
+                <p>
+                  Communicate visually at the speed of thought – collaborative
+                  flowcharts.
+                </p>
+                <div class="labels">
+                  <span>Design</span>
+                  <span>Development</span>
+                </div>
+              </div>
+            </div>
+            <div class="newcomer-box">
+              <div class="image-background">
+                <img src="./assets/mindmaster.png" alt="mindmaster logo" />
+              </div>
+              <div>
+                <div class="title">
+                  <h4>MindMaster</h4>
+                  <span class="free-trial">FREE 30 DAY</span>
+                </div>
+                <p>
+                  Full-featured collaborative mind mapping and brainstorming
+                  tool.
+                </p>
+                <div class="labels">
+                  <span>Design</span>
+                  <span>Development</span>
+                </div>
+              </div>
+            </div>
+            <div class="newcomer-box">
+              <div class="image-background">
+                <img src="./assets/zappier.png" alt="zapier logo" />
+              </div>
+              <div>
+                <div class="title">
+                  <h4>Zapier</h4>
+                  <span class="premium">PREMIUM</span>
+                </div>
+                <p>Zapier moves info between your web apps automatically.</p>
+                <div class="labels">
+                  <span>Design</span>
+                  <span>Development</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button id="newcomerSeeAll">See All</button>
+      </section>
+
+      <section class="brands">
+        <h3>Trusted by Brands</h3>
+        <p>Brand that using the tools</p>
+        <div class="brand-container">
+          <div class="brand-box">
+            <img src="./assets/Google-Logo.svg" alt="google logo" />
+            <p>
+              Search the world's information, including webpages, images, videos
+              and more. Google has many special features to help you find
+              exactly what you're looking
+            </p>
+          </div>
+          <div class="brand-box">
+            <img src="./assets/neteflix.svg" alt="netflix logo" />
+            <p>
+              Streaming service that offers a wide variety of award-winning TV
+              shows, movies, anime, documentaries, and more on thousands of
+              internet-connected devices
+            </p>
+          </div>
+          <div class="brand-box">
+            <img src="./assets/Airbnb-Logo.svg" alt="airbnb logo" />
+            <p>
+              American vacation rental online marketplace company based in San
+              Francisco, California. Airbnb maintains and hosts a marketplace
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial">
+        <div class="wrapper">
+          <h3>Testimonial</h3>
+          <p>Designer and developer using the best tools</p>
+          <div class="testimonial-container">
+            <div class="testimonial-box">
+              <img src="./assets/stars.svg" alt="stars" />
+              <p>
+                Gear Menyediakan informasi tools yang powerful untuk Designer,
+                Developer, dan juga Business Owner agar bisa lebih produktif
+              </p>
+              <div class="customer">
+                <img src="./assets/man-smiling.png" alt="customer man" />
+                <div class="name">
+                  <p>Wahid Ari</p>
+                  <p>Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <img src="./assets/stars.svg" alt="stars" />
+              <p>
+                Gear Menyediakan informasi tools yang powerful untuk Designer,
+                Developer, dan juga Business Owner agar bisa lebih produktif
+              </p>
+              <div class="customer">
+                <img src="./assets/nerd-smiling.png" alt="customer boy" />
+                <div class="name">
+                  <p>Wahid</p>
+                  <p>Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <img src="./assets/stars.svg" alt="stars" />
+              <p>
+                Gear Menyediakan informasi tools yang powerful untuk Designer,
+                Developer, dan juga Business Owner agar bisa lebih produktif
+              </p>
+              <div class="customer">
+                <img src="./assets/bold-man.png" alt="customer" />
+                <div class="name">
+                  <p>Ari</p>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="subscription">
+        <h3>Subscribe</h3>
+        <p>Subscribe to get exclusive news & offer</p>
+        <div class="subscribe">
+          <input type="email" placeholder="Email address" />
+          <button>Subscribe</button>
+        </div>
+      </section>
+
+      <section class="contents">
+        <div class="wrapper">
+          <div class="socials">
+            <div class="socials-logo">
+              <img src="./assets/logo.svg" alt="logo" />
+              <img src="./assets/Gear.svg" alt="logo-name" />
+            </div>
+            <div class="social-networks">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="../assets/facebook.svg" alt="facebook logo"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="../assets/instagram.svg" alt="instagram logo"
+              /></a>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><img src="../assets/twitter.svg" alt="twitter logo"
+              /></a>
+            </div>
+          </div>
+          <div class="resource">
+            <h4>Resource</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a href="./pages/about.html">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="legal">
+            <h4>Legal Stuff</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Disclaimer</a>
+                </li>
+                <li>
+                  <a href="#">Financing</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms of service</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="office">
+            <h4>Office</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a href="mailto:gear@gmail.com" target="_blank"
+                    >gear@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://maps.app.goo.gl/6C4p7MRqswySeUNaA"
+                    target="_blank"
+                    >Jln. Soekarno Hatta No 1A</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://maps.app.goo.gl/6C4p7MRqswySeUNaA"
+                    target="_blank"
+                    >Jakarta, Indonesia</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section class="watermark">
+        <p>Made With Love By Gear All Right Reserved</p>
+      </section>
+    </footer>
+
+    <script>
+      document
+        .getElementById("signupButton")
+        .addEventListener("click", function () {
+          window.location.href = "./pages/registration.html";
+        });
+
+      document
+        .getElementById("exploreNowButton")
+        .addEventListener("click", function () {
+          window.location.href = "./pages/popular.html";
+        });
+
+      document
+        .getElementById("popularSeeAll")
+        .addEventListener("click", function () {
+          window.location.href = "./pages/popular.html";
+        });
+
+      document
+        .getElementById("newcomerSeeAll")
+        .addEventListener("click", function () {
+          window.location.href = "./pages/comer.html";
+        });
+    </script>
   </body>
 </html>
