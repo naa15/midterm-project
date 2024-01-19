@@ -41,13 +41,13 @@
         <div class="hero">
           <h2>Most Popular Tools</h2>
           <p>Most popular tools for designer and developer</p>
-          <button>Explore Now</button>
+          <button id="explorePopular">Explore Now</button>
         </div>
       </div>
     </header>
 
     <main>
-      <div class="popular-tools-grid">
+      <div class="popular-tools-grid" id="populars">
         <div class="grid-item">
           <div class="image-background">
             <img src="../assets/figma.svg" alt="figma logo" />
@@ -317,6 +317,13 @@
         .getElementById("signupButton")
         .addEventListener("click", function () {
           window.location.href = "./registration.html";
+        });
+
+      document
+        .getElementById("explorePopular")
+        .addEventListener("click", function () {
+          var element = document.getElementById("populars");
+          element.scrollIntoView({ behavior: "smooth" });
         });
     </script>
   </body>

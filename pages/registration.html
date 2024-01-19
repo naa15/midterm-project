@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midterm | Popular</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/font.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/registration.css" />
+  </head>
+  <body>
+    <header>
+      <div class="upperPart">
+        <div class="upperPartContent">
+          <img src="../assets/logo.svg" alt="logo" />
+          <nav>
+            <ul>
+              <li>
+                <a href="../index.html">HOME</a>
+              </li>
+              <li>
+                <a href="#">POPULAR</a>
+              </li>
+              <li>
+                <a href="./comer.html">NEW COMER</a>
+              </li>
+              <li>
+                <a href="./about.html">ABOUT</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="buttons">
+            <button id="signupButton">Sign Up</button>
+            <button>Login</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <form action="" method="" class="form">
+        <h2>Welcome, let's create an account</h2>
+        <p class="subtext">
+          Create an account to keep track of your customers, and contributors.
+          Once your account has been created then don’t forget to verify your
+          account through mail.
+        </p>
+
+        <div class="names">
+          <div class="firstnames">
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Your first name"
+              id="firstname"
+            />
+          </div>
+
+          <div class="lastnames">
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Your last name"
+              id="lastname"
+            />
+          </div>
+        </div>
+
+        <label for="email">Work Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Your work email"
+          id="email"
+        />
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="Georgia">Georgia</option>
+          <option value="USA" selected>United States of America</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="destlab">Where did you first hear about DestLab?</label>
+        <select name="destlab" id="destlab">
+          <option value="option" selected>Select an option</option>
+          <option value="friend">From a friend</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Must beat least 8 characters"
+        />
+
+        <p class="terms">
+          By continuing you agree to the DestLab
+          <a href="#">terms of service</a> and <a href="#">privacy policy.</a>
+        </p>
+
+        <div class="submit">
+            <button type="submit">Continue</button>
+            <p class="sign-in">Already registered? <a href="">Sign In</a></p>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <section class="subscription">
+        <h3>Subscribe</h3>
+        <p>Subscribe to get exclusive news & offer</p>
+        <div class="subscribe">
+          <input type="email" placeholder="Email address" />
+          <button>Subscribe</button>
+        </div>
+      </section>
+
+      <section class="contents">
+        <div class="wrapper">
+          <div class="socials">
+            <div class="socials-logo">
+              <img src="../assets/logo.svg" alt="logo" />
+              <img src="../assets/Gear.svg" alt="logo-name" />
+            </div>
+            <div class="social-networks">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="../assets/facebook.svg" alt="facebook logo"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="../assets/instagram.svg" alt="instagram logo"
+              /></a>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><img src="../assets/twitter.svg" alt="twitter logo"
+              /></a>
+            </div>
+          </div>
+          <div class="resource">
+            <h4>Resource</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a href="./about.html">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="legal">
+            <h4>Legal Stuff</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Disclaimer</a>
+                </li>
+                <li>
+                  <a href="#">Financing</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms of service</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="office">
+            <h4>Office</h4>
+            <nav>
+              <ul>
+                <li>
+                  <a href="mailto:gear@gmail.com" target="_blank"
+                    >gear@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://maps.app.goo.gl/6C4p7MRqswySeUNaA"
+                    target="_blank"
+                    >Jln. Soekarno Hatta No 1A</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://maps.app.goo.gl/6C4p7MRqswySeUNaA"
+                    target="_blank"
+                    >Jakarta, Indonesia</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section class="watermark">
+        <p>Made With Love By Gear All Right Reserved</p>
+      </section>
+    </footer>
+
+    <script>
+      document
+        .getElementById("signupButton")
+        .addEventListener("click", function () {
+          window.location.href = "./registration.html";
+        });
+    </script>
+  </body>
+</html>
