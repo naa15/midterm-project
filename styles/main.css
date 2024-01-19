@@ -122,6 +122,10 @@ header button {
     margin-right: 0.5rem;
 }
 
+.leftPart .users-image {
+    transform: translate(-30px, 0px);
+}
+
 .leftPart .users p {
     display: inline-block;
     color: #0086D6;
@@ -130,6 +134,7 @@ header button {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    transform: translate(-30px, 0px);
 }
 
 .leftPart .users p:last-child {
