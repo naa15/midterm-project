@@ -611,6 +611,7 @@ footer {
     margin-right: 0.81rem;
     border-radius: 0.25rem;
     background: #FFF;
+    padding: 1rem;
 }
 
 .subscribe input::placeholder {
@@ -621,7 +622,6 @@ footer {
     font-weight: 400;
     line-height: 1.25rem;
     letter-spacing: 0.0125rem;
-    padding-left: 1rem;
 }
 
 .subscribe button {

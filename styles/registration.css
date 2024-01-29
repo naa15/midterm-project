@@ -120,6 +120,7 @@
     border: none;
     padding: 1rem 1.5rem;
     width: 6.8rem;
+    cursor: pointer;
     margin-bottom: 0.75rem;
 }
 
